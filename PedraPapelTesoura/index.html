@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo de Jokenpo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>JOKENPO</h1>
+    <p id="msg" style="text-align: center;">...</p>
+
+    <div id="main">
+    <img src="img/papel.png" alt="Papel"> <input type="radio" name="radJogada" id="radPapel"> PAPEL
+    <label for="radPapel"></label>
+
+    <img src="img/pedra.png" alt="Pedra"> <input type="radio" name="radJogada" id="radPedra"> PEDRA
+    <label for="radPedra"></label>
+
+    <img src="img/tesoura.png" alt="Tesoura"> <input type="radio" name="radJogada" id="radTesoura"> TESOURA
+    <label for="radTesoura"></label>
+    
+
+    <br><br><button onclick="jogar()">JOGAR</button>
+
+   
+    <p id="desc">...</p> <img id="img1" src="img/unknown.png" alt="">
+  
+    <hr style="width: 350px;">
+
+    <p id="descMaquina">...</p> <img id="img2" src="img/unknown.png" alt="">
+
+    <hr style="width: 350px;">
+    
+
+    <p id="res"></p>
+</div>
+
+
+
+
+
+
+<script src="script.js"></script>
+</body>
+</html>
